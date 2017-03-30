@@ -1,0 +1,169 @@
+.j-Pareet{
+    .react-app{
+        margin:5px 30px 0 0;
+        float:left;
+        color:#108ee9;
+        font-size:24px;
+        font-weight: 700;
+        cursor:pointer;
+    }
+    .j-children{
+        padding-left: 106px;
+    }
+    .nav-ul{
+        float:left;
+        .nav-link{
+            color:#333;
+        }
+        .active{
+            color:green;
+        }
+    li{
+        display: inline-block;
+        margin:10px;
+      }
+    }
+    .nav-dl{
+        line-height: 28px;
+        font-size: 14px;
+        font-family: "微软雅黑"
+    }
+    .j-home{
+        p{
+            line-height:36px;
+        }
+        button{
+            border:none;
+            padding:2px 10px;
+            margin:0 5px;
+            border-radius: 2px;
+            background-color: #000;
+            color:#fff;
+            cursor: pointer;
+        }
+    }
+    .j-bar{
+        table{
+            width:100%;
+            border:1px solid #999;
+            padding:10px;
+            thead{
+                tr{
+                    td{
+                        border:1px solid #ddd;
+                        line-height:22px;
+                        height:30px;
+                    }
+                }
+            }
+            tbody{
+                tr{
+                    td{
+                        border:1px solid #d8d8d8;
+                        line-height:22px;
+                        height:30px;
+                    }
+                }
+            }
+        }
+    }
+    .j-antd{
+        .iconTip{
+            float:right;
+            cursor:pointer;
+            margin-right:20px;
+            margin-top:-25px;
+            &:hover{
+                color:#1fc1ed;
+        }   }
+    }
+    .j-foo{
+        .fooText{
+            width:300px;
+            height:26px;
+            border:1px solid #999;
+            border-radius: 5px;
+            padding-left:10px;
+        }
+        .myBtn{
+            border:1px solid #ddd;
+            padding:4px 10px;
+            border:none;
+            border-radius: 4px;
+            color:#333;
+            margin-left:5px;
+            cursor: pointer;
+        }
+    }
+    .j-cook{
+            width:400px;
+            height:280px;
+            border:1px solid red;
+            overflow: hidden;
+            position: relative;
+            ul{
+                width:2000px;
+                height:280px;
+                border:1px solid #000;
+                li{
+                    width:400px;
+                    height:280px;
+                    background-color: green;
+                    float:left;
+                    font-size:20px;
+                    color:#fff;
+                    text-align: center;
+                    line-height: 280px;
+                }
+            }
+            .cookBtn{
+                width:100%;
+                height:30px;
+                line-height: 30px;
+                position: absolute;
+                bottom: 0;
+                left:0;
+                text-align: center;
+                span{
+                    display: inline-block;
+                    width:30px;
+                    height:5px;
+                    background: yellow;
+                    margin:0 10px;
+                    &:hover{
+                        cursor:pointer;
+                    }
+                }
+                .active{
+                    background-color: red;
+                }
+            }
+        }
+
+    .j-movie{
+        table{
+            padding:20px;
+            border:0;
+            thead td{
+                padding:5px 25px;
+                text-align: center;
+            }
+            tbody td{
+                padding:5px 15px;
+                text-align: center;
+                border:none;
+                a{
+                    &:hover{
+                        color: green;
+                    }
+                }
+            }
+            tbody tr{
+                &:hover{
+                    background-color:#f3f3f3;
+                }
+            }
+        }
+    }
+}
+
