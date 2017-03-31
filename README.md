@@ -12,5 +12,5 @@
 2、cd React-Redux                                                                                                                                     
 3、npm install                                                                                                                                
 4、npm run dev       //运行                                                                                                                              
-5、http://localhost:8888                                                                                                                                             
+5、http://localhost:8888      //测试公钥配置                                                                                                                                       
 
