@@ -1,4 +1,5 @@
 技术栈：React、React-Redux、React-Router、webpack、ES6、fetch、antd、sass...                                                                           
+备注：本demo示例只是开发版本，自己学习React-Redux用的，故模块大多安装在devDependencies中
 
 1、计数器                                                                                                                               
 2、静态数据的获取                                                                                                                                                
